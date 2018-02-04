@@ -12,6 +12,7 @@
   <modules>
     <module>event-driven-framework</module>
     <module>event-driven-architecture</module>
+    <module>event-driven-swing-app</module>
   </modules>
 
   <properties>
