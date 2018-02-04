@@ -1,13 +1,9 @@
 = event-driven
 
-.build
-----
-./mvnw clean package com.dkanejs.maven.plugins:docker-compose-maven-plugin:1.0.1:up
-./mvnw com.dkanejs.maven.plugins:docker-compose-maven-plugin:1.0.1:down
-
-./gradlew clean build composeUp
-./gradlew composeDown
-----
+. link:./event-driven-framework[build simplest event driven framework]
+. link:./event-driven-architecture[build another simple event driven app]
+. link:./event-driven-swing-app[swing example]
+. link:./java-ee[Java EE event-driven app]
 
 links:
 

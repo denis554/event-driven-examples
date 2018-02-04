@@ -1,0 +1,31 @@
+= java-ee
+
+.build
+----
+./mvnw clean package com.dkanejs.maven.plugins:docker-compose-maven-plugin:1.0.1:up
+./mvnw com.dkanejs.maven.plugins:docker-compose-maven-plugin:1.0.1:down
+
+./gradlew clean build composeUp
+./gradlew composeDown
+----
+
+.test
+----
+http :8080/app/api/v1/events message=message\ 1
+# ...
+Location: http://localhost:8080/app/api/v1/events/e4aa4cf4-df34-4b76-b05a-d6f5d4c5c9a7
+
+http :8080/app/api/v1/events message=message\ 2
+# ...
+Location: http://localhost:8080/app/api/v1/events/84efda32-27f3-4256-8986-fdb5c9113ac2
+
+http :8080/app/api/v1/events/84efda32-27f3-4256-8986-fdb5c9113ac2
+# ...
+{
+    "_self": "http://localhost:8080/app/api/v1/events/84efda32-27f3-4256-8986-fdb5c9113ac2",
+    "message": "message 2"
+}
+
+http :8080/app/api/v1/events
+# ...
+----

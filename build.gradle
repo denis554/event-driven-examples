@@ -10,7 +10,6 @@ buildscript {
 plugins {
   id "idea"
   id "eclipse"
-  id "com.avast.gradle.docker-compose" version "0.6.12"
 }
 
 allprojects {
@@ -45,15 +44,3 @@ subprojects {
   }
 }
 
-dockerCompose {
-  useComposeFiles = [project.file("docker-compose-gradle.yaml")]
-  captureContainersOutput = true
-  stopContainers = true
-  removeContainers = true
-  removeImages = "Local"
-  removeVolumes = true
-  removeOrphans = true
-  projectName = project.name
-}
-
-composeUp.dependsOn assemble

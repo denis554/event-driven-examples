@@ -19,6 +19,7 @@ plugins {
   id "eclipse"
   id "application"
   id "com.github.johnrengelman.shadow" version "2.0.2"
+  id "com.avast.gradle.docker-compose" version "0.6.13"
 }
 
 apply plugin: "org.junit.platform.gradle.plugin"
@@ -68,3 +69,17 @@ dependencies {
 test {
   systemProperties "property": "value"
 }
+
+dockerCompose {
+  useComposeFiles = [project.file("docker-compose-gradle.yaml")]
+  captureContainersOutput = true
+  stopContainers = true
+  removeContainers = true
+  removeImages = "Local"
+  removeVolumes = true
+  removeOrphans = true
+  projectName = project.name
+}
+
+composeUp.dependsOn assemble
+
