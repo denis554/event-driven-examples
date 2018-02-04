@@ -1,0 +1,16 @@
+group: travis_lts
+env:
+  global:
+    TERM=dumb
+language: java
+jdk:
+- oraclejdk8
+- openjdk8
+install: true
+script:
+- bash mvnw
+- bash gradlew
+cache:
+  directories:
+  - $HOME/.m2
+  - $HOME/.gradle
