@@ -3,3 +3,5 @@ include "event-driven-framework"
 include "event-driven-architecture"
 include "event-driven-swing-app"
 include "java-ee"
+
+include "embedded-kafka"

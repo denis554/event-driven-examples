@@ -1,0 +1,14 @@
+= embedded-kafka
+
+.gradle
+----
+../embedded-kafka/gradlew -b ../embedded-kafka/build.gradle bRun
+
+./gradlew bootRun
+----
+
+.mvn
+----
+../embedded-kafka/mvnw -f ../embedded-kafka/pom.xml
+java -jar ../embedded-kafka/target/*.jar
+----
