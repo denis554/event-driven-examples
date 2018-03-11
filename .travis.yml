@@ -1,4 +1,3 @@
-group: travis_lts
 env:
   global:
     TERM=dumb
