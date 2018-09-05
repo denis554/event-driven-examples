@@ -1,36 +1,36 @@
 buildscript {
   ext {
-    javaVersion = "1.8"
-    vavrVersion = "0.9.2"
-    slf4jVersion = "1.7.25"
-    lombokVersion = "1.16.20"
+    javaVersion = '1.8'
+    vavrVersion = '0.9.2'
+    slf4jVersion = '1.7.25'
+    lombokVersion = '1.16.20'
   }
 }
 
 plugins {
-  id "idea"
-  id "eclipse"
+  id 'idea'
+  id 'eclipse'
 }
 
 allprojects {
 
-  apply plugin: "base"
-  apply plugin: "maven"
+  apply plugin: 'base'
+  apply plugin: 'maven'
 
-  group = "daggerok"
-  version = "0.0.1"
+  group = 'com.github.daggerok'
+  version = '0.0.1'
 
-  defaultTasks "clean", "build"
+  defaultTasks 'clean', 'build'
 
   task wrapper(type: Wrapper) {
-    gradleVersion = "4.5.1"
-    distributionType = "ALL"
+    gradleVersion = '4.10'
+    distributionType = 'BIN'
   }
 }
 
 subprojects {
 
-  apply plugin: "java"
+  apply plugin: 'java'
 
   sourceCompatibility = targetCompatibility = "$javaVersion"
 

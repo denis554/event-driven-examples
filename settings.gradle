@@ -1,7 +1,8 @@
-rootProject.name = "event-driven"
-include "event-driven-framework"
-include "event-driven-architecture"
-include "event-driven-swing-app"
-include "java-ee"
+rootProject.name = 'event-driven-examples'
 
-include "embedded-kafka"
+include 'event-driven-framework'
+include 'event-driven-architecture'
+include 'event-driven-swing-app'
+include 'java-ee'
+
+include 'embedded-kafka'

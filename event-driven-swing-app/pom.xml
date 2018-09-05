@@ -5,9 +5,9 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>daggerok</groupId>
-    <artifactId>event-driven</artifactId>
-    <version>0.0.1</version>
+    <groupId>com.github.daggerok</groupId>
+    <artifactId>event-driven-examples</artifactId>
+    <version>0.0.2</version>
   </parent>
 
   <artifactId>event-driven-swing-app</artifactId>

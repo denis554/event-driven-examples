@@ -1,4 +1,4 @@
-= event-driven image:https://travis-ci.org/daggerok/event-driven-examples.svg?branch=master["Build Status", link="https://travis-ci.org/daggerok/event-driven-examples"]
+= event-driven-examples image:https://travis-ci.org/daggerok/event-driven-examples.svg?branch=master["Build Status", link="https://travis-ci.org/daggerok/event-driven-examples"]
 
 - link:./event-driven-framework[build simplest event driven framework]
 - link:./event-driven-architecture[build another simple event driven app]
