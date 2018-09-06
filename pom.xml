@@ -10,6 +10,8 @@
   <packaging>pom</packaging>
 
   <modules>
+    <module>some-event-driven-app</module>
+
     <module>event-driven-framework</module>
     <module>event-driven-architecture</module>
     <module>event-driven-swing-app</module>

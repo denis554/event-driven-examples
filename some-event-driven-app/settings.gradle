@@ -1,0 +1,3 @@
+rootProject.name = 'some-event-driven-app'
+enableFeaturePreview 'STABLE_PUBLISHING'
+include 'docs'

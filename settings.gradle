@@ -1,5 +1,7 @@
 rootProject.name = 'event-driven-examples'
 
+include 'some-event-driven-app'
+
 include 'event-driven-framework'
 include 'event-driven-architecture'
 include 'event-driven-swing-app'
