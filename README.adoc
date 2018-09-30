@@ -9,6 +9,7 @@ links:
 
 - link:https://docs.oracle.com/javase/tutorial/uiswing/events/index.html[Oracle Lesson: Writing Event Listeners]
 - link:http://www.giocc.com/writing-an-event-driven-framework-with-java.html[Writing an Event-Driven Framework with Java]
+- link:https://elegantcode.com/2010/01/06/event-driven-architecture-publishing-events-using-an-ioc-container/[Quite useful C# / .NET artcile about that topic]
 
 TODO:
 
