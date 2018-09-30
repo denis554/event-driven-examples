@@ -7,6 +7,7 @@
 
 links:
 
+- link:https://docs.oracle.com/javase/tutorial/uiswing/events/index.html[Oracle Lesson: Writing Event Listeners]
 - link:http://www.giocc.com/writing-an-event-driven-framework-with-java.html[Writing an Event-Driven Framework with Java]
 
 TODO:
