@@ -10,6 +10,7 @@
   <packaging>pom</packaging>
 
   <modules>
+    <module>java-event-handling</module>
     <module>some-event-driven-app</module>
 
     <module>event-driven-framework</module>
