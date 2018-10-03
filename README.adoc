@@ -14,3 +14,4 @@ links:
 TODO:
 
 - link:https://github.com/Ookami86/event-sourcing-in-practice[Find talks: event-sourcing in practice]
+- link:https://www.youtube.com/watch?v=AKGT7wkVd34[YouTube: Ануар Нурмаканов — Event Sourcing и CQRS на конкретном примере]
