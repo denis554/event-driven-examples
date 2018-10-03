@@ -44,11 +44,6 @@ plugins {
   id 'io.qameta.allure' version '2.5' apply false
 }
 
-wrapper {
-  gradleVersion = '4.10'
-  distributionType = 'BIN'
-}
-
 apply from: "$baseDir/gradle/ide.gradle"
 apply from: "$baseDir/gradle/clean.gradle"
 apply from: "$baseDir/gradle/repositories.gradle"

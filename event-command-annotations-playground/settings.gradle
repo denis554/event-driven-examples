@@ -1,0 +1,3 @@
+rootProject.name = 'event-command-annotations-playground'
+enableFeaturePreview 'STABLE_PUBLISHING'
+include 'docs'

@@ -21,11 +21,6 @@ allprojects {
   version = '0.0.1'
 
   defaultTasks 'clean', 'build'
-
-  task wrapper(type: Wrapper) {
-    gradleVersion = '4.10'
-    distributionType = 'BIN'
-  }
 }
 
 subprojects {
@@ -44,3 +39,7 @@ subprojects {
   }
 }
 
+wrapper {
+  gradleVersion = '4.10.2'
+  distributionType = 'BIN'
+}

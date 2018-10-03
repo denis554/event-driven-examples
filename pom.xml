@@ -10,6 +10,8 @@
   <packaging>pom</packaging>
 
   <modules>
+    <module>event-command-annotations-playground</module>
+
     <module>java-event-handling</module>
     <module>some-event-driven-app</module>
 

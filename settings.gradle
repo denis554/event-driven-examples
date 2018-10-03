@@ -1,5 +1,7 @@
 rootProject.name = 'event-driven-examples'
 
+include 'event-command-annotations-playground'
+
 include 'java-event-handling'
 include 'some-event-driven-app'
 
